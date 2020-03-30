@@ -7,5 +7,4 @@ categories: jekyll update
 
 不该让她心碎，你为甚么总这样，让她伤心绝望。
 
-[jekyll-gh]: https://github.com/jekyll/jekyll
-[jekyll]:    http://jekyllrb.com
+

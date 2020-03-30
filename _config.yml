@@ -2,7 +2,7 @@
 title: "Typewriter"
 description: "So I was feeling nostalgic."
 baseurl: ""
-url: "http://alixedi.github.io"
+url: "https://yingjundeng.github.io/"
 
 # Build settings
 markdown: kramdown
@@ -12,11 +12,11 @@ paginate: 3
 
 # Links
 links:
-  - title: "abt"
+  - title: "首页"
     url: /about
-  - title: "twt"
-    url: http://twitter.com/alixedi
-  - title: "git"
-    url: http://github.com/alixedi
-  - title: "rss"
+  - title: "其他"
+    url: http://www.baidu.com
+  - title: "关于"
+    url: http://www.baidu.com
+  - title: "个人"
     url: /feed.xml

@@ -1,78 +1,40 @@
-![](https://raw.githubusercontent.com/kkninjae/book/master/github/hero.png)
+# brume
 
+I am not a designer so I cannot impress you with breathtaking Jekyll themes, but brume is something that just came to my mind and I had to build it. It is a clean and simple theme, which has an index page that lists all your blog posts divided by the year, a single post page and a layout for any additional pages you might need.
 
-# Book
+This is how the "Home" page looks like.
 
-Book, a simple and ready-to-use Jekyll theme. [Live](http://kkninjae.github.io/book/).
+![Home](https://raw.githubusercontent.com/aigarsdz/brume/master/screenshots/home.png)
 
+And this is a single post.
 
-## How-to
+![Post](https://raw.githubusercontent.com/aigarsdz/brume/master/screenshots/post_1.png)
 
-*   [Setup](#setup)
-*   [Customization](#customization)
-*   [Writing Posts](#writing-posts)
-*   [Deploy to Github Page](#deploy-to-gh-pages)
+![Post. More content examples.](https://raw.githubusercontent.com/aigarsdz/brume/master/screenshots/post_2.png)
 
+## Usage
 
-### <a name="setup" id>Setup</a>
+Brume can be installed just like any other Jekyll theme as described [here](https://jekyllrb.com/docs/themes/#installing-a-theme),
+but there are a couple of additional steps you have to take.
 
-```sh
-# get a copy of book source code
-$ git clone https://github.com/kkninjae/book.git
+1. All the links are defined in a file *_data/links.yml*, therefore you'll have to create a *_data*
+directory and put this file there in order for navigation to be displayed.
+2. Brume uses `home` layout for the home page (like the default Jekyll theme). All you need to do
+is create an *index.html* or *index.md* file with `layout: home`. If you want the home page to be
+listed in the navigation you have to add `title` to it's front matter that matches
+the title you used for the home page link in the *links.yml* file. Titles are used to indicate
+the current page.
 
-# running site locally
-$ jekyll serve -w
+## Theme customization
 
-# from now, you should be able to start development or customization
-```
+This theme has 4 predefined colors that can be used for links:
 
+- azul
+- ruby
+- amber
+- avocado
 
-### <a name="customization">Customization</a>
+By default it uses *avocado*, but if you want to select another one just change the `color_scheme` setting in
+*_config.yml* file.
 
-Book is designed as simple as possible, but few changes can make your site uniq.
-You only need to change the values of keys in `_config.yml` file.
-
-*   Change site path: `baseurl`
-*   Give your site a name: `title`
-*   Make a site favicon: `favicon`
-*   Make a special home button image: `avatar`
-
-
-Last but not least
-
-*   If you are using Google analytics: `ga`
-*   If you are using Disqus commenting system: `disqus`
-
-
-### <a name="writing-posts">Writing Posts</a>
-
-Make a markdown file in `_posts` directory,
-follow [Jekyll post naming convention](https://jekyllrb.com/docs/posts/) to name your post,
-and put following front matter to the top of your post.
-You should be able to start to write your awesome post.
-Read this [POST](https://kkninjae.github.io/book/2015/08/28/how-to-use-book.html) to know more tips.
-
-```markdown
----
-title: Your awesome post title
-date: YYYY-MM-DD
----
-```
-
-
-### <a name="deploy-to-gh-pages">Deploy to Github Page</a>
-
-There is a deploying script built out of box.
-You need to install one more tool before using it which is [npm](https://www.npmjs.com/get-npm).
-This script will push your current static site to `gh-pages` branch.
-If there is no `gh-pages` branch yet, the script will create it for you.
-
-```sh
-# start to deploy your site to Github pages
-$ npm run deploy
-```
-
-
-## End.
-
-If you like this theme, why not give it a star. :)
+Express your thoughts about brume on Twitter [@aigarsdz](http://twitter.com/aigarsdz), and help me make it better!

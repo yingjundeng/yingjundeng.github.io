@@ -1,29 +1,9 @@
-<!DOCTYPE html>
-<html>
-<head>
+---
+layout: default
+---
 
-  {% include head.html %}
+<article class="single row gutters">
+  <h2>{{ page.title }}</h2>
 
-  <link rel="stylesheet" href="{{ 'assets/css/page.css' | relative_url }}" media="all">
-
-</head>
-<body>
-
-  <div class="page-content clear-header--top clear-navbar--top clear-footer--bottom">
-
-    {% include header.html %}
-
-    {% include navigation.html %}
-
-    <main class="main clear-header--left">
-
-    {{ content }}
-
-    </main>
-
-    {% include footer.html %}
-
-  </div>
-
-</body>
-</html>
+  {{ content }}
+</article>

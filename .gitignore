@@ -1,5 +1,7 @@
-_site/
-.sass-cache/
-node_modules/
-package-lock.json
-dist/
+*.gem
+.bundle
+.sass-cache
+_site
+Gemfile.lock
+.DS_Store
+vendor

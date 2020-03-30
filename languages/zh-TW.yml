@@ -1,18 +1,5 @@
-continue: 查看更多
-nav:
-  home: 回到首頁
-
-search: 搜索
-archive: 文章歸檔
-recent_posts: 最新文章
-categories: 文章分類
-tagcloud: 標籤雲
-
-count:
-  articles: 文章
-  tags: 標籤
-  categories: 分類
-
-copyright:
-  author: 本文作者
-  permalink: 本文鏈接
+prev: 上一頁
+next: 下一頁
+comment: 留言
+archive_a: 彙整
+archive_b: 彙整：%s

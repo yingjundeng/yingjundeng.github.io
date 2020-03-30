@@ -1,13 +1,2 @@
-.DS_Store
-
-*.log
-
-_config.yml
-
 node_modules
-
-.idea
-
-.directory
-
-WIKI/.vuepress/dist
+_config.yml

@@ -1,63 +1,85 @@
+# Hexo-theme-hollow
 
-![预览图](cover.png)
+一款极致简洁的博客主题 😉 可访问[我的博客](http://www.chen9.info/fragment/)查看实际效果
 
-<h1 align="center"><a href="https://nexmoe.com/hexo-theme-nexmoe.html" target="_blank">Nexmoe</a></h1>
+## 安装
 
-> 一个比较特别的 Hexo 主题
+在你的 Hexo 博客仓库下 clone 主题
 
-<p align="center">
-<img alt="star" src="https://img.shields.io/github/stars/nexmoe/hexo-theme-nexmoe.svg"/>
-<img alt="fork" src="https://img.shields.io/github/forks/nexmoe/hexo-theme-nexmoe.svg"/>
-<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/nexmoe/hexo-theme-nexmoe.svg?label=commits">
-<img alt="issues" src="https://img.shields.io/github/issues/nexmoe/hexo-theme-nexmoe.svg"/>
-<a href="https://nexmoe.com"><img alt="Author" src="https://img.shields.io/badge/author-%E6%8A%98%E5%BD%B1%E8%BD%BB%E6%A2%A6-red.svg"/></a>
-<a href="https://github.com/nexmoe/hexo-theme-nexmoe/blob/master/LICENSE"><img alt="license" src="https://img.shields.io/github/license/nexmoe/hexo-theme-nexmoe.svg"/></a>
-<img alt="hexo" src="https://img.shields.io/badge/hexo-blue.svg"/>
-<img alt="Download" src="https://img.shields.io/badge/download-29.9KB-brightgreen.svg"/>
-</p>
+	git clone https://github.com/zchen9/hexo-theme-hollow.git themes/hollow
 
-## 🎓 教程
-请查看 [https://docs.nexmoe.com/](https://docs.nexmoe.com/)
+在博客下的 _config.yml 文件修改主题为 hollow
+	
+	theme: hollow
 
-## 💻 演示
+启动博客
 
-- [Nexmoe](https://nexmoe.com/)
-- [深海小涛](https://hexo.xtaolink.cn/)
-- [西瓜星 🍉✨](https://suikastar.com/)
-- [我妻善逸](http://fguby.love/)
+	hexo clean
+	hexo generate
+	hexo server
+	
+发布博客
 
-> 欢迎将你的网站提交到这里来
+	hexo deploy
+	
+## 配置
 
-## 🎇 移植版
- - Typecho：https://github.com/nexmoe/typecho-theme-nexmoe
+主题下的 _config.yml 文件
 
-> 完全 Copy Hexo 版本的样式
+	# Default post title
+	# 默认文章标题
+	default_post_title: Halo
+	
+	# Date Format
+	# 文章时间戳格式
+	# 也可以在博客主体的 _config.yml 配置，优先取博客主体的时间配置
+	date_format: YYYY 年 MM 月 DD 日
 
-## 🎆 修改版
- - Hexo-Saigyou_Ayakashi: https://github.com/SaigyoujiYuyuko233/Saigyou_Ayakashi-HexoTheme
- - Solo-InkDP：https://github.com/InkDP/solo-nexmoe
+	# Comment 
+	# 填写 disqus_shortname 即可使用 disqus
+	comments:
+	  disqus_shortname: 
+	
+	# Google Analytics Tracking ID
+	google_analytics: 
+	 
+## 文章格式
 
-> 与官方版略有不同
+以下为 markdown 格式：
 
-## 🌏 国际化
+```
+title: <文章标题>
+category: <文章分类>
+date: <文章日期> [YYYY-MM-DD]
 
-支持多语言，默认语言为简体中文。
-目前中文翻译较全，其他语言翻译不完全，有余力的大佬可以来贡献一下
-语言文件在 languages 里，参考 `zh-CN.yml` 进行翻译即可
+---
 
-> 非常欢迎你帮助我们将 Nexmoe 翻译至其他语言！
+文章预览内容
 
-## 📄 许可证
+<!--more-->
 
-<a href="https://github.com/nexmoe/hexo-theme-nexmoe/blob/master/LICENSE"><img alt="license" src="https://img.shields.io/github/license/nexmoe/hexo-theme-nexmoe.svg"/></a>
+文章正文在此
 
-根据 Apache License 2.0 许可证开源。
+```
 
-## 🍻 后续更新
-就读高中，
-star 以及 issue 是我更新的动力!
-欢迎加群 [482634342 轻惋漫社](https://jq.qq.com/?_wv=1027&k=5CfKHun) 划水
+## CHANGELOG
 
-## 💬 交流
-论坛提问：https://club.chainwon.com/t/nexmoe
-主题讨论群：614621637
+20190526 @zchen9
+- 主页开放小相机
+- 微调阅读样式
+- 优化搜索功能
+
+20190519 @fakeYanss [pull/36](https://github.com/zchen9/hexo-theme-hollow/pull/36)
+- 增加service worker
+- 本地搜索
+- 文章图片放大查看
+
+## 其他
+
+- 此主题不适用写技术博客贴代码
+- 作者很懒，更新频率看心情 ╮(╯_╰)╭
+- 欢迎贡献你的代码 🙋 [issue](https://github.com/zchen9/hexo-theme-hollow/issues)
+
+## LICENSE
+
+[MIT](https://github.com/zchen9/hexo-theme-hollow/blob/master/LICENSE)

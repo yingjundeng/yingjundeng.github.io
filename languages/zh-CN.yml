@@ -1,19 +1,5 @@
-continue: 查看更多
-nav:
-  home: 回到首页
-
-search: 搜索
-archive: 文章归档
-recent_posts: 最新文章
-categories: 文章分类
-tagcloud: 标签云
-social: 社交按钮
-
-count:
-  articles: 文章
-  tags: 标签
-  categories: 分类
-  
-copyright:
-  author: 本文作者
-  permalink: 本文链接
+prev: 上一页
+next: 下一页
+comment: 留言
+archive_a: 归档
+archive_b: 归档：%s

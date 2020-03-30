@@ -1,40 +1,63 @@
-# brume
 
-I am not a designer so I cannot impress you with breathtaking Jekyll themes, but brume is something that just came to my mind and I had to build it. It is a clean and simple theme, which has an index page that lists all your blog posts divided by the year, a single post page and a layout for any additional pages you might need.
+![预览图](cover.png)
 
-This is how the "Home" page looks like.
+<h1 align="center"><a href="https://nexmoe.com/hexo-theme-nexmoe.html" target="_blank">Nexmoe</a></h1>
 
-![Home](https://raw.githubusercontent.com/aigarsdz/brume/master/screenshots/home.png)
+> 一个比较特别的 Hexo 主题
 
-And this is a single post.
+<p align="center">
+<img alt="star" src="https://img.shields.io/github/stars/nexmoe/hexo-theme-nexmoe.svg"/>
+<img alt="fork" src="https://img.shields.io/github/forks/nexmoe/hexo-theme-nexmoe.svg"/>
+<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/nexmoe/hexo-theme-nexmoe.svg?label=commits">
+<img alt="issues" src="https://img.shields.io/github/issues/nexmoe/hexo-theme-nexmoe.svg"/>
+<a href="https://nexmoe.com"><img alt="Author" src="https://img.shields.io/badge/author-%E6%8A%98%E5%BD%B1%E8%BD%BB%E6%A2%A6-red.svg"/></a>
+<a href="https://github.com/nexmoe/hexo-theme-nexmoe/blob/master/LICENSE"><img alt="license" src="https://img.shields.io/github/license/nexmoe/hexo-theme-nexmoe.svg"/></a>
+<img alt="hexo" src="https://img.shields.io/badge/hexo-blue.svg"/>
+<img alt="Download" src="https://img.shields.io/badge/download-29.9KB-brightgreen.svg"/>
+</p>
 
-![Post](https://raw.githubusercontent.com/aigarsdz/brume/master/screenshots/post_1.png)
+## 🎓 教程
+请查看 [https://docs.nexmoe.com/](https://docs.nexmoe.com/)
 
-![Post. More content examples.](https://raw.githubusercontent.com/aigarsdz/brume/master/screenshots/post_2.png)
+## 💻 演示
 
-## Usage
+- [Nexmoe](https://nexmoe.com/)
+- [深海小涛](https://hexo.xtaolink.cn/)
+- [西瓜星 🍉✨](https://suikastar.com/)
+- [我妻善逸](http://fguby.love/)
 
-Brume can be installed just like any other Jekyll theme as described [here](https://jekyllrb.com/docs/themes/#installing-a-theme),
-but there are a couple of additional steps you have to take.
+> 欢迎将你的网站提交到这里来
 
-1. All the links are defined in a file *_data/links.yml*, therefore you'll have to create a *_data*
-directory and put this file there in order for navigation to be displayed.
-2. Brume uses `home` layout for the home page (like the default Jekyll theme). All you need to do
-is create an *index.html* or *index.md* file with `layout: home`. If you want the home page to be
-listed in the navigation you have to add `title` to it's front matter that matches
-the title you used for the home page link in the *links.yml* file. Titles are used to indicate
-the current page.
+## 🎇 移植版
+ - Typecho：https://github.com/nexmoe/typecho-theme-nexmoe
 
-## Theme customization
+> 完全 Copy Hexo 版本的样式
 
-This theme has 4 predefined colors that can be used for links:
+## 🎆 修改版
+ - Hexo-Saigyou_Ayakashi: https://github.com/SaigyoujiYuyuko233/Saigyou_Ayakashi-HexoTheme
+ - Solo-InkDP：https://github.com/InkDP/solo-nexmoe
 
-- azul
-- ruby
-- amber
-- avocado
+> 与官方版略有不同
 
-By default it uses *avocado*, but if you want to select another one just change the `color_scheme` setting in
-*_config.yml* file.
+## 🌏 国际化
 
-Express your thoughts about brume on Twitter [@aigarsdz](http://twitter.com/aigarsdz), and help me make it better!
+支持多语言，默认语言为简体中文。
+目前中文翻译较全，其他语言翻译不完全，有余力的大佬可以来贡献一下
+语言文件在 languages 里，参考 `zh-CN.yml` 进行翻译即可
+
+> 非常欢迎你帮助我们将 Nexmoe 翻译至其他语言！
+
+## 📄 许可证
+
+<a href="https://github.com/nexmoe/hexo-theme-nexmoe/blob/master/LICENSE"><img alt="license" src="https://img.shields.io/github/license/nexmoe/hexo-theme-nexmoe.svg"/></a>
+
+根据 Apache License 2.0 许可证开源。
+
+## 🍻 后续更新
+就读高中，
+star 以及 issue 是我更新的动力!
+欢迎加群 [482634342 轻惋漫社](https://jq.qq.com/?_wv=1027&k=5CfKHun) 划水
+
+## 💬 交流
+论坛提问：https://club.chainwon.com/t/nexmoe
+主题讨论群：614621637

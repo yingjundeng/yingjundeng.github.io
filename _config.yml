@@ -15,8 +15,10 @@ links:
   - title: "首页"
     url: /index
   - title: "其他"
-    url: /about
+    url: /other
   - title: "关于"
-    url: http://www.baidu.com
+    url: /about
+  - title: "一个女孩"
+    url: /reson
   - title: "个人"
-    url: /reson.html
+    url: /reson

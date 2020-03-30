@@ -3,4 +3,4 @@ typewriter
 
 index图.
 
-![Screenshot](https://raw.githubusercontent.com/alixedi/typewriter/master/images/home.png)
+![Screenshot](https://github.com/yingjundeng/yingjundeng.github.io/blob/master/images/home.png)

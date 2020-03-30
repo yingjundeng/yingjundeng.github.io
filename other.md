@@ -1,7 +1,7 @@
 ---
 layout: page
-title: 一个窝
+title: ../
 permalink: 
 ---
 
-一个窝......
+寻找宝藏......

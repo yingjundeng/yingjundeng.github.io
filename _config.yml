@@ -15,10 +15,10 @@ links:
   - title: "首页"
     url: /index
   - title: "其他"
-    url: /other
+    url: /view/other
   - title: "关于"
-    url: /about
+    url: /view/about
   - title: "一个女孩"
-    url: /reson
+    url: /view/reson
   - title: "个人"
-    url: /reson
+    url: /view/reson

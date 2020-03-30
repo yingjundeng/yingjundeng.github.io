@@ -1,6 +1,6 @@
 typewriter
 ==========
 
-A simple and beautiful theme for Jekyll.
+index图.
 
-![Screenshot](https://raw.githubusercontent.com/alixedi/typewriter/master/images/screenshot.png)
+![Screenshot](https://raw.githubusercontent.com/alixedi/typewriter/master/images/home.png)

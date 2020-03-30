@@ -1,7 +1,7 @@
 ---
 layout: page
-title: ../
-permalink: 不想胡思乱猜
+title: 不想胡思乱猜
+permalink: 
 ---
 
 不想胡思乱猜......

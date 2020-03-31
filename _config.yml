@@ -15,10 +15,10 @@ links:
   - title: "首页"
     url: /index
   - title: "技术"
-    url: /view/other
+    url: /view/technology
   - title: "生活"
-    url: /view/about
+    url: /view/life
   - title: "摄影"
-    url: /view/reson
+    url: /view/photography
   - title: "女孩"
-    url: /view/reson
+    url: /view/girl

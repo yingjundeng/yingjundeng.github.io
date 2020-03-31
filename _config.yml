@@ -14,11 +14,11 @@ paginate: 3
 links:
   - title: "首页"
     url: /index
-  - title: "其他"
+  - title: "技术"
     url: /view/other
-  - title: "关于"
+  - title: "生活"
     url: /view/about
-  - title: "一个女孩"
+  - title: "摄影"
     url: /view/reson
-  - title: "个人"
+  - title: "女孩"
     url: /view/reson

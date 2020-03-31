@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 一个窝
+title: 生活
 permalink: 
 ---
 
